@@ -1,63 +1,85 @@
-<header><img src=" Picture file (.jpg)" alt="Shri Ram Foundation Logo" style="max-width: 100px; height: auto;">
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shri Ram Foundation</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="banner">
-            <h1>Shri Ram Foundation</h1>
-            <p>Empowering Communities, Transforming Lives</p>
-        </div>
+        <h1>Shri Ram Foundation</h1>
+        <p>Empowering Communities, Transforming Lives</p>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#programs">Programs</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#get-involved">Get Involved</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
+            <a href="#about">About Us</a>
+            <a href="#programs">Programs</a>
+            <a href="#events">Events</a>
+            <a href="#get-involved">Get Involved</a>
+            <a href="#contact">Contact Us</a>
         </nav>
     </header>
-
-    <section id="home">
+    <section id="about">
         <h2>Welcome to Shri Ram Foundation</h2>
         <p>Shri Ram Foundation is dedicated to uplifting underprivileged communities through various initiatives, with a special focus on education. Our mission is to provide essential resources and opportunities to those who need them the most, ensuring a brighter future for all.</p>
     </section>
-
-    <section id="key-initiatives">
+    <section id="programs">
         <h2>Our Key Initiatives</h2>
-        <ul>
-            <li><strong>Educational Drive:</strong> Ensuring access to quality education for all children.</li>
-            <li><strong>Food Drive:</strong> Combating hunger and malnutrition.</li>
-            <li><strong>Health Programs:</strong> Promoting healthy living and providing medical support.</li>
-            <li><strong>Sports Activities:</strong> Encouraging physical fitness and teamwork.</li>
-            <li><strong>Environmental Initiatives:</strong> Committing to environmental sustainability.</li>
-            <li><strong>Cultural Activities:</strong> Celebrating and promoting cultural heritage.</li>
-        </ul>
+        <h3>Educational Drive</h3>
+        <p>Ensuring access to quality education for all children.</p>
+        <h3>Food Drive</h3>
+        <p>Providing nutritious food to those in need.</p>
+        <!-- Add more program descriptions -->
     </section>
-
-    <section id="call-to-action">
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <!-- Events calendar -->
+    </section>
+    <section id="get-involved">
         <h2>Get Involved</h2>
-        <p>Join us as a volunteer, donate, or partner with us to make a difference!</p>
-        <a href="#get-involved" class="button">Join Us</a>
-        <a href="#donate" class="button">Donate Now</a>
+        <p>Join us as a volunteer or make a donation to support our causes.</p>
+        <!-- Volunteer and donation information -->
     </section>
-
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- Contact form and information -->
+    </section>
     <footer>
         <p>&copy; 2024 Shri Ram Foundation. All rights reserved.</p>
-        <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">LinkedIn</a></li>
-        </ul>
     </footer>
 </body>
 </html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+<link rel="stylesheet" href="styles.css">
